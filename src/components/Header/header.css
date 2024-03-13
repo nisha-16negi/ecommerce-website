@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    padding-bottom: 20px;
+  }
+
+  .divider{
+    border-bottom: 1px solid rgb(183, 178, 178);
+    width: 102rem;
+    margin-left: 9rem;
+    margin-bottom: 30px;
+  }
+  .logo {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    padding-left: 6%;
+  }
+
+  .cart-link{
+    border: 2px solid rgb(25, 23, 24);
+    height: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(240, 219, 230);
+    margin: 10px 120px;
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 18%;
+  }
+  .logo div {
+    font-family: "cursive";
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
